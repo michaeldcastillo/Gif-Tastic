@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gif-Tastic Celebrity Search</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="javascript/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style type="text/css">
+    /* local style */
+  </style> 
+    <script type="text/javascript">
+    /* local script */
+    </script>
+</head>
+<body>
+    <div id="container">
+        <h1>Gif-Tastic Celebrity Search</h1>  
+        <p style="font-size:12px;">This web page references the Giphy API to display animated .gif images.</p>
+        <hr style="border:1px solid #ededed;">
+        <form id="form">
+          <label for="input">Enter a celebrity name:</label>
+          <input type="text" id="textinput">
+          <input id="submitbutton" type="submit" value="ADD"><button type="button" id="clearbutton">RESET</button>
+        </form>   
+        <div id="renderbuttons"></div>
+        <hr style="border:1px solid #ededed;">
+        <div id="renderresponse"><img style="border:2px solid #ededed;" src="images/oscars-631x351.jpg"></div>
+    </div>
+</body>
+</html>
